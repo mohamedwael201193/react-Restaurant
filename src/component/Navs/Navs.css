@@ -1,0 +1,30 @@
+nav{
+    background-color: #fff;
+    width:  100%;
+    height: auto;
+    border-radius: 0px;
+        font-family: 'Roboto', sans-serif;
+}
+nav a{
+color: #a82d49 !important;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin: 0 5px;
+}
+nav #lastnav{
+    background-color: #a82d49;
+    color: #fff !important;
+    border: 3px solid #a82d49;
+    box-sizing: border-box;
+}
+nav #lastnav:hover{
+    background-color: transparent;
+    color: #a82d49 !important;
+    transition: 0.2s;
+}
+nav img{
+    max-width: 100%;
+    height: 90%;
+}
